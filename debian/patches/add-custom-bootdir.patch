@@ -1,0 +1,13 @@
+Author: Dave Jones <dave.jones@canonical.com>
+Description: Ubuntu mounts the boot partition under /boot/firmware
+
+--- a/host_applications/linux/apps/dtoverlay/CMakeLists.txt
++++ b/host_applications/linux/apps/dtoverlay/CMakeLists.txt
+@@ -16,6 +16,7 @@
+ 
+ add_executable(dtoverlay dtoverlay_main.c utils.c)
+ target_link_libraries(dtoverlay dtovl)
++target_compile_definitions(dtoverlay PRIVATE OTHER_BOOT_DIR="/boot/firmware")
+ install(TARGETS dtoverlay RUNTIME DESTINATION bin)
+ 
+ add_custom_command(TARGET dtoverlay POST_BUILD COMMAND ln;-sf;dtoverlay;dtparam)

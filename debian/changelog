@@ -1,0 +1,5 @@
+raspberrypi-userland (0~20200520+git2fe4ca3-1) groovy; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Dave Jones <dave.jones@canonical.com>  Wed, 20 May 2020 22:09:06 +0000

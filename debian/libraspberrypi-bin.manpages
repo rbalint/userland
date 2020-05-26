@@ -1,0 +1,14 @@
+debian/vcgencmd.1
+debian/raspistill.1
+debian/raspiyuv.1
+debian/raspivid.1
+debian/raspividyuv.1
+debian/raspicam.7
+debian/raspiotp.7
+debian/raspirev.7
+debian/tvservice.1
+debian/dtoverlay.1
+debian/dtparam.1
+debian/dtmerge.1
+debian/vcmailbox.1
+debian/vcmailbox.7

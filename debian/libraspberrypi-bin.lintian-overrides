@@ -1,0 +1,17 @@
+# The container binaries are undocumented and don't support -h so I've no
+# idea what they do
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_check_frame_int
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_datagram_receiver
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_datagram_sender
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_dump_pktfile
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_rtp_decoder
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_stream_client
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_stream_server
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_test
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_test_bits
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_test_uri
+libraspberrypi-bin binary: binary-without-manpage usr/bin/containers_uri_pipe
+libraspberrypi-bin binary: binary-without-manpage usr/bin/dtoverlay-pre
+libraspberrypi-bin binary: binary-without-manpage usr/bin/dtoverlay-post
+libraspberrypi-bin binary: binary-without-manpage usr/bin/vchiq_test
+libraspberrypi-bin binary: binary-without-manpage usr/bin/mmal_vc_diag

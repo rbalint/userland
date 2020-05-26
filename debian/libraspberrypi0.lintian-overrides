@@ -1,0 +1,27 @@
+# Upstream doesn't version their API
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libbcm_host.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libcontainers.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libdebug_sym.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libdtovl.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libmmal.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libmmal_components.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libmmal_core.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libmmal_util.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libmmal_vc_client.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libvchiq_arm.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libvcos.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libvcsm.so
+libraspberrypi0 binary: dev-pkg-without-shlib-symlink usr/lib/*/libvcsm.so
+libraspberrypi0 binary: package-name-doesnt-match-sonames libbcm-host libcontainers libdebug-sym libdtovl libmmal libmmal-components libmmal-core libmmal-util libmmal-vc-client libvchiq-arm libvcos libvcsm
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libbcm_host.so libbcm_host.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libcontainers.so libcontainers.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libdebug_sym.so libdebug_sym.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libdtovl.so libdtovl.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libmmal.so libmmal.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libmmal_components.so libmmal_components.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libmmal_core.so libmmal_core.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libmmal_util.so libmmal_util.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libmmal_vc_client.so libmmal_vc_client.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libvchiq_arm.so libvchiq_arm.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libvcos.so libvcos.so
+libraspberrypi0 binary: shlib-without-versioned-soname usr/lib/aarch64-linux-gnu/libvcsm.so libvcsm.so
