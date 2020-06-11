@@ -1,4 +1,4 @@
-raspberrypi-userland (0~20200520+git2fe4ca3-1) groovy; urgency=medium
+raspberrypi-userland (0~20200520+git2fe4ca3-1~ppa1) groovy; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
 
