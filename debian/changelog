@@ -1,3 +1,15 @@
+raspberrypi-userland (0~20200520+git2fe4ca3-1~20.04~ppa2) focal; urgency=medium
+
+  * Version bump for PPA rebuild
+
+ -- Dave Jones <dave.jones@canonical.com>  Thu, 16 Jul 2020 14:43:48 +0000
+
+raspberrypi-userland (0~20200520+git2fe4ca3-1~20.04~ppa1) focal; urgency=medium
+
+  * Focal back-port
+
+ -- Dave Jones <dave.jones@canonical.com>  Thu, 11 Jun 2020 10:29:31 +0000
+
 raspberrypi-userland (0~20200520+git2fe4ca3-1~ppa5) groovy; urgency=medium
 
   * Add d/p/fix-format-overflow.patch to fix potential NULL string used in a
