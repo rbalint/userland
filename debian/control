@@ -4,7 +4,8 @@ XSBC-Original-Maintainer: Serge Schneider <serge@raspberrypi.org>
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Build-Depends:
   debhelper (>= 11),
-  cmake
+  cmake,
+  pkg-config
 Standards-Version: 4.5.0
 Section: libs
 Homepage: https://github.com/raspberrypi/userland
