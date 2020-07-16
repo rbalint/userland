@@ -1,5 +1,6 @@
 Author: Dave Jones <dave.jones@canonical.com>
 Description: Ubuntu mounts the boot partition under /boot/firmware
+Forwarded: not-needed
 
 --- a/host_applications/linux/apps/dtoverlay/CMakeLists.txt
 +++ b/host_applications/linux/apps/dtoverlay/CMakeLists.txt
