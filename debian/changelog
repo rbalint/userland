@@ -1,3 +1,9 @@
+raspberrypi-userland (0~20200520+git2fe4ca3-1~ppa3) groovy; urgency=medium
+
+  * Version bump for PPA rebuild
+
+ -- Dave Jones <dave.jones@canonical.com>  Thu, 16 Jul 2020 14:11:59 +0000
+
 raspberrypi-userland (0~20200520+git2fe4ca3-1~ppa2) groovy; urgency=medium
 
   * Version bump for PPA rebuild
@@ -6,6 +12,6 @@ raspberrypi-userland (0~20200520+git2fe4ca3-1~ppa2) groovy; urgency=medium
 
 raspberrypi-userland (0~20200520+git2fe4ca3-1~ppa1) groovy; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
+  * Ubuntu port (LP: #1883111)
 
  -- Dave Jones <dave.jones@canonical.com>  Wed, 20 May 2020 22:09:06 +0000
