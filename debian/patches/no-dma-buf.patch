@@ -45,3 +45,14 @@ Description: Use dma-buf.h from linux-libc-dev instead
 -#define DMA_BUF_IOCTL_SYNC	_IOW(DMA_BUF_BASE, 0, struct dma_buf_sync)
 -
 -#endif
+--- a/host_applications/linux/libs/sm/user-vcsm.c
++++ b/host_applications/linux/libs/sm/user-vcsm.c
+@@ -38,7 +38,7 @@
+ 
+ #include <vmcs_sm_ioctl.h>
+ #include "vc_sm_cma_ioctl.h"
+-#include "dma-buf.h"
++#include <linux/dma-buf.h>
+ #include "user-vcsm.h"
+ #include "interface/vcos/vcos.h"
+ 
