@@ -5,6 +5,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Build-Depends:
   debhelper (>= 11),
   cmake,
+  linux-libc-dev,
   pkg-config
 Standards-Version: 4.5.0
 Section: libs
