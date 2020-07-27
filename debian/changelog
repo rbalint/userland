@@ -1,3 +1,9 @@
+raspberrypi-userland (0~20200520+git2fe4ca3-1~ppa4) groovy; urgency=medium
+
+  * Version bump for PPA rebuild
+
+ -- Dave Jones <dave.jones@canonical.com>  Mon, 27 Jul 2020 11:29:58 +0100
+
 raspberrypi-userland (0~20200520+git2fe4ca3-1~ppa3) groovy; urgency=medium
 
   * Version bump for PPA rebuild
