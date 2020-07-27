@@ -1,0 +1,19 @@
+Author: Dave Jones <dave.jones@canonical.com>
+Description: Patches a potential NULL string used in a %s format
+
+--- a/interface/vmcs_host/linux/vcfilesys.c
++++ b/interface/vmcs_host/linux/vcfilesys.c
+@@ -1016,10 +1016,10 @@
+       }
+    }
+ 
+-   DEBUG_MINOR( "vc_hostfs_totalspace for '%s' returning %" PRId64 "", path, ret );
+-
+-   if (path)
++   if (path) {
++      DEBUG_MINOR( "vc_hostfs_totalspace for '%s' returning %" PRId64 "", path, ret );
+       free( path );
++   }
+    return ret;
+ }
+ 
