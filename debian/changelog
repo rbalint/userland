@@ -1,3 +1,9 @@
+raspberrypi-userland (0~20200520+git2fe4ca3-1~20.04~ppa4) focal; urgency=medium
+
+  * Version bump for PPA rebuild
+
+ -- Dave Jones <dave.jones@canonical.com>  Mon, 27 Jul 2020 13:46:45 +0100
+
 raspberrypi-userland (0~20200520+git2fe4ca3-1~20.04~ppa3) focal; urgency=medium
 
   * Version bump for PPA rebuild
