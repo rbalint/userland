@@ -1,4 +1,4 @@
-raspberrypi-userland (0~20200520+git2fe4ca3-1ubuntu1) groovy; urgency=medium
+raspberrypi-userland (0~20200520+git2fe4ca3-0ubuntu1) groovy; urgency=medium
 
   * Ubuntu port (LP: #1883111)
   * Added:
